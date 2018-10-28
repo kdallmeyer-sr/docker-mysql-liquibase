@@ -1,0 +1,31 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "insert-initial-greetings",
+        "author": "kdallmeyer",
+        "changes": [
+          {
+            "insert": {
+              "columns": [
+                {
+                  "column": {
+                    "name": "name",
+                    "value": "Greg"
+                  }
+                },
+                {
+                  "column": {
+                    "name": "content",
+                    "value": "Hi Boss!"
+                  }
+                }
+              ],
+              "tableName": "personalized_greetings"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "add-app-user",
+        "author": "kdallmeyer",
+        "changes": [
+          {
+            "comment": "Add app user",
+            "sql": "CREATE USER 'app_user'@'%' IDENTIFIED BY '${appPassword}';"
+          },
+          {
+            "comment": "Grant CRUD access to app user",
+            "sql":
+              "GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'app_user'@'%';"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "databaseChangeLog": [
+    {
+      "include": {
+        "file": "changelog-add-roles-2018-03-06-1234.json",
+        "relativeToChangelogFile": true
+      }
+    },
+    {
+      "include": {
+        "file": "changelog-ddl-2018-03-06-1342.json",
+        "relativeToChangelogFile": true
+      }
+    },
+    {
+      "include": {
+        "file": "changelog-dml-2018-03-06-1429.json",
+        "relativeToChangelogFile": true
+      }
+    }
+  ]
+}
