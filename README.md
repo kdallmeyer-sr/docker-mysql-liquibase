@@ -26,7 +26,7 @@ docker run \
        mysql-5.7.22-liquibase-3.5.5:latest
 ```
 
-# Running a new image
+## Running a new image
 
 Dockerfile:
 ```dockerfile
